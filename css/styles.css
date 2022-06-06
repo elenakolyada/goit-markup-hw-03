@@ -11,6 +11,7 @@
 }
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 h1,
 h2,
@@ -125,7 +126,6 @@ ol {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 .list-text {
   display: block;
@@ -175,6 +175,7 @@ ol {
   border: 1px solid #ececec;
   border-top: none;
   padding: 20px 24px 20px 24px;
+  margin-bottom: -20px;
 }
 
 .link.current {
@@ -311,7 +312,17 @@ ol {
 .title-image {
   display: block;
   text-align: center;
-  margin-top: 0;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.title-teem {
+  display: block;
+  text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -322,7 +333,6 @@ ol {
 .container-img {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 .img {
   display: block;
@@ -334,7 +344,6 @@ ol {
 .container-image {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 .image {
   display: block;
