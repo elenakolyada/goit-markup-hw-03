@@ -48,17 +48,15 @@ ol {
   text-align: center;
   color: rgb(117, 117, 117);
   border-bottom: 1px solid #ececec;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav1 {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .site-nav2 {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
   margin-left: auto;
 }
 .logo {
@@ -71,11 +69,14 @@ ol {
   color: var(--primary-text-color);
   text-align: left;
   margin-right: 93px;
-  padding-top: 24px;
 }
 
 .header-link {
   display: block;
+  margin-right: 50px;
+}
+.header-link:last-child {
+  margin-right: 0;
 }
 .header-item {
   display: block;
@@ -126,6 +127,7 @@ ol {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -30px;
 }
 .list-text {
   display: block;
@@ -175,7 +177,6 @@ ol {
   border: 1px solid #ececec;
   border-top: none;
   padding: 20px 24px 20px 24px;
-  margin-bottom: -20px;
 }
 
 .link.current {
@@ -202,10 +203,6 @@ ol {
   color: #757575;
   display: block;
   text-align: right;
-  margin-left: 50px;
-}
-.contacts-link:nth-last-child(-2n) {
-  margin-left: 0;
 }
 
 .contacts {
@@ -215,7 +212,7 @@ ol {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   display: block;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 .contacts:nth-child(2n) {
   margin-right: 0;
@@ -312,13 +309,13 @@ ol {
 .title-image {
   display: block;
   text-align: center;
-  margin-top: 94px;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: -94px;
 }
 .title-teem {
   display: block;
@@ -369,7 +366,6 @@ ol {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
-  padding-bottom: 30px;
 }
 .container-teem {
   padding-top: 30px;
