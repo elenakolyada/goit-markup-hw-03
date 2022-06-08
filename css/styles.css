@@ -48,8 +48,6 @@ ol {
   text-align: center;
   color: rgb(117, 117, 117);
   border-bottom: 1px solid #ececec;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .site-nav1 {
@@ -69,11 +67,15 @@ ol {
   color: var(--primary-text-color);
   text-align: left;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link {
   display: block;
   margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-link:last-child {
   margin-right: 0;
